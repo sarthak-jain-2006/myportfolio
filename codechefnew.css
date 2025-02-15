@@ -1,0 +1,55 @@
+header {
+    background-color: #504e4e;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+#about{
+    display:flex;
+    font-family: monospace; 
+    font-size:23px;
+    justify-content: space-between ;
+}
+img{
+    height:170px;
+    width:170px;
+    border-radius:50%;
+}
+.container {
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+#skills, #hobbies,#Education,#contact {
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+ul {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+h1{
+    font-weight: larger;
+}
+.container:hover{
+    background-color: #a9a6a6;
+}
+
